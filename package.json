@@ -1,6 +1,6 @@
 {
   "name": "ip-map-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Display IP location map",
   "main": "index.js",
   "homepage": "http://funkyremi.github.io/ip-map-react",
