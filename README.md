@@ -8,6 +8,10 @@ React component to display ip location on a map 🗺.
 
 ![Demo](./demo.png)
 
+## Live demo
+
+[Live demo](https://funkyremi.github.io/ip-map-react)
+
 # Installation and usage
 
 The easiest way to use react-select is to install it from npm and build it into your app.

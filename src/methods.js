@@ -13,12 +13,12 @@ export const getCurrentIp = () => {
 
 export const getIpData = (ip, width, height) => {
   return new Promise((resolve, reject) => {
-    fetch(`http://ip-api.com/json/${ip}?fields=786431`)
+    fetch(`https://ipapi.co/${ip}/json/`)
       .then(res => res.json())
       .then(res => {
         res.mapUrl = `https://static-maps.yandex.ru/1.x/?lang=en-US&ll=${
-          res.lon
-        },${res.lat}&z=10&l=map&size=${width},${height}`;
+          res.longitude
+        },${res.latitude}&z=10&l=map&size=${width},${height}`;
         resolve(res);
       })
       .catch(reject);

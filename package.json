@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Display IP location map",
   "main": "index.js",
+  "homepage": "http://funkyremi.github.io/ip-map-react",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "deploy": "storybook-to-ghpages",
     "build-storybook": "build-storybook"
   },
   "repository": {
@@ -23,7 +25,6 @@
   "bugs": {
     "url": "https://github.com/funkyremi/ip-map-react/issues"
   },
-  "homepage": "https://github.com/funkyremi/ip-map-react#readme",
   "dependencies": {
     "lodash": "^4.17.11",
     "node-fetch": "^2.3.0",
@@ -31,11 +32,12 @@
     "react-tooltip": "^3.10.0"
   },
   "devDependencies": {
-    "@storybook/react": "^5.0.6",
+    "@babel/core": "^7.4.3",
     "@storybook/addon-actions": "^5.0.6",
     "@storybook/addon-links": "^5.0.6",
     "@storybook/addons": "^5.0.6",
-    "@babel/core": "^7.4.3",
+    "@storybook/react": "^5.0.6",
+    "@storybook/storybook-deployer": "^2.8.1",
     "babel-loader": "^8.0.5"
   }
 }
