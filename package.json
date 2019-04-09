@@ -1,0 +1,41 @@
+{
+  "name": "ip-map-react",
+  "version": "1.0.0",
+  "description": "Display IP location map",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funkyremi/ip-map-react.git"
+  },
+  "keywords": [
+    "ip",
+    "map",
+    "location",
+    "react"
+  ],
+  "author": "Rémi Testa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funkyremi/ip-map-react/issues"
+  },
+  "homepage": "https://github.com/funkyremi/ip-map-react#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0",
+    "react": "^16.8.6",
+    "react-tooltip": "^3.10.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.0.6",
+    "@storybook/addon-actions": "^5.0.6",
+    "@storybook/addon-links": "^5.0.6",
+    "@storybook/addons": "^5.0.6",
+    "@babel/core": "^7.4.3",
+    "babel-loader": "^8.0.5"
+  }
+}
